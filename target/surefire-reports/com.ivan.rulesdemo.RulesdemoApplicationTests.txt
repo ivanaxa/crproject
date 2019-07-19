@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ivan.rulesdemo.RulesdemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.572 s - in com.ivan.rulesdemo.RulesdemoApplicationTests

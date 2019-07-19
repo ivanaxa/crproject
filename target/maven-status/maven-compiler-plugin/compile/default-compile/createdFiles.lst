@@ -1,0 +1,6 @@
+com/ivan/rulesdemo/controller/RulesController.class
+com/ivan/rulesdemo/hello/MvcConfig/MvcConfig.class
+com/ivan/rulesdemo/RulesdemoApplication.class
+com/ivan/rulesdemo/hello/WebSecurityConfig/WebSecurityConfig.class
+com/ivan/rulesdemo/repository/RulesRepository.class
+com/ivan/rulesdemo/entity/Rules.class

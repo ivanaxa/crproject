@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <title> Rule Sheet File Upload Page</title>
+        <link rel="stylesheet" href="/css/main.css" />
+	</head>
+	
+	<body>
+		<h2>Rule Sheet File Upload Page</h2>
+		<div>
+        	<h3>Upload Single Rule Sheet</h3>
+            	<form action=http://localhost:8080/postRule method="post" enctype="multipart/form-data">
+                	<input type="file" name="file" />
+                    <button type="submit"> Submit Here</button>
+                </form>
+        </div>
+        
+        <br><br>
+
+        <div>
+        <h3>Upload Multiple Rule Sheets</h3>
+        	<form action="http://localhost:8080/postRules" method="post" enctype="multipart/form-data">
+  				<input type="file" name="files" multiple/>
+  				<input type="submit"/>
+			</form>
+        </div>
+        
+        <br><br>
+        
+        <div>
+        <h3>See Current Rule Sheets</h3>
+        	<form action="http://localhost:8080/rules" method="get">
+  				<button type="submit"/>See All Rulesheets</button>
+			</form>
+        </div>
+        
+        <br><br>
+        
+        <div>
+            <form th:action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out"/>
+        </form>
+        </div>
+	</body>	
+</html>
